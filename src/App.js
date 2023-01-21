@@ -1,5 +1,5 @@
 import "./App.css";
-import Motion from "./components/motion.component";
+import Framer from "./components/frame.component";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
           alignItems: "center",
         }}
       >
-        <Motion />
+        <Framer />
       </div>
     </div>
   );
